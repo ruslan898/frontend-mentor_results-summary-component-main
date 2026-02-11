@@ -2,7 +2,7 @@
 @use '/src/sass/mixins.scss' as *;
 
 .final-score-card {
-  width: 100%;
+  width: 375px;
   background-color: $white;
 
   .wrapper {
@@ -54,5 +54,17 @@
 
   &-subtitle {
     @include text-preset-5-medium;
+  }
+}
+
+@media (min-width: 768px) {
+  .final-score-card {
+    width: 338px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .final-score-card {
+    width: 368px;
   }
 }

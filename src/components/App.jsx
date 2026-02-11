@@ -1,14 +1,12 @@
-import './app.scss'
-import Button from './ui/button/Button'
-import FinalScoreCard from './ui/finalScoreCard/FinalScoreCard'
-import SingularScoreForm from './ui/singularScoreForm/SingularScoreForm'
+import './app.scss';
+import FinalScoreCard from './ui/finalScoreCard/FinalScoreCard';
+import SummaryCard from './ui/SummaryCard/SummaryCard';
 
 export default function App() {
   return (
     <div className="results-summary-component">
       <FinalScoreCard />
-      <SingularScoreForm />
-      <Button />
+      <SummaryCard />
     </div>
-  )
+  );
 }

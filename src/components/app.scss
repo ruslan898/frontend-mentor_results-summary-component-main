@@ -2,6 +2,15 @@
 @use '/src/sass/mixins.scss' as *;
 
 .results-summary-component {
+  margin: 50px auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .results-summary-component {
+    flex-direction: row;
+  }
 }

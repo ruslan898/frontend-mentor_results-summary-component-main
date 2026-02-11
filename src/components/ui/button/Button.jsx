@@ -1,9 +1,5 @@
-import './button.scss'
+import './button.scss';
 
-export default function Button({children}) {
-  return (
-    <button className='btn'>
-      Continue
-    </button>
-  )
+export default function Button({ children }) {
+  return <button className="btn">{children}</button>;
 }

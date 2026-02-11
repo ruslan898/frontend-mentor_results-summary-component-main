@@ -9,4 +9,9 @@
   background-color: $navy-950;
   color: $white;
   @include text-preset-5-bold;
+  cursor: pointer;
+
+  &:active {
+    background: $gradient-2;
+  }
 }
