@@ -1,0 +1,12 @@
+@use '/src/sass/variables.scss' as *;
+@use '/src/sass/mixins.scss' as *;
+
+.btn {
+  max-width: 315px;
+  padding: 17px;
+  border: none;
+  border-radius: 128px;
+  background-color: $navy-950;
+  color: $white;
+  @include text-preset-5-bold;
+}

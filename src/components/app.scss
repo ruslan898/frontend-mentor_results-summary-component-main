@@ -1,0 +1,7 @@
+@use '/src/sass/variables.scss' as *;
+@use '/src/sass/mixins.scss' as *;
+
+.results-summary-component {
+  display: flex;
+  flex-direction: column;
+}

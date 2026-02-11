@@ -1,0 +1,58 @@
+@use '/src/sass/variables.scss' as *;
+@use '/src/sass/mixins.scss' as *;
+
+.final-score-card {
+  width: 100%;
+  background-color: $white;
+
+  .wrapper {
+    padding: 45px 54px;
+    background: $gradient-2;
+    text-align: center;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .title {
+    @include text-preset-5-bold;
+  }
+
+  .score {
+    &-box {
+      width: 200px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+      @include text-preset-5-bold;
+      background: $gradient-1;
+      border-radius: 100px;
+    }
+
+    &-num {
+      color: $white;
+      @include text-preset-1;
+    }
+  }
+}
+
+.result {
+  &-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &-title {
+    color: $white;
+    @include text-preset-3;
+  }
+
+  &-subtitle {
+    @include text-preset-5-medium;
+  }
+}

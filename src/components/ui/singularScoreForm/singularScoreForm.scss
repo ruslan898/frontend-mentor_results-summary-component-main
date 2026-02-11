@@ -1,0 +1,49 @@
+@use '/src/sass/variables.scss' as *;
+@use '/src/sass/mixins.scss' as *;
+
+.singular-score-form {
+  max-width: 315px;
+  border-radius: 12px;
+  padding: 17px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .category {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .score {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: $navy-200;
+    @include text-preset-6-bold;
+
+    &-num {
+      color: $navy-950;
+    }
+  }
+
+  &.reaction {
+    color: $red-400;
+    background-color: $red-50;
+  }
+
+  &.memory {
+    color: $yellow-400;
+    background-color: $yellow-50;
+  }
+
+  &.verbal {
+    color: $green-500;
+    background-color: $green-50;
+  }
+
+  &.visual {
+    color: $blue-800;
+    background-color: $blue-50;
+  }
+}
