@@ -25,6 +25,7 @@ export default function SummaryCard() {
         text={category}
         score={score}
         variant={category}
+        key={category}
       />
     );
   });
