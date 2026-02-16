@@ -9,7 +9,7 @@
   flex-direction: column;
   gap: 24px;
 
-  .title {
+  .main-title {
     color: $navy-950;
     @include text-preset-5-bold;
   }
@@ -25,6 +25,10 @@
   .summary-card {
     width: 348px;
     padding: 44px 40px;
+
+    .main-title {
+      @include text-preset-4;
+    }
   }
 }
 

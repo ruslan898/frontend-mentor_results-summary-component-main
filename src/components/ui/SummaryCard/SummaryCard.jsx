@@ -31,7 +31,7 @@ export default function SummaryCard() {
 
   return (
     <div className="summary-card">
-      <h2 className="title">Summary</h2>
+      <h2 className="main-title">Summary</h2>
       <div className="score-forms">{scoreFormEls}</div>
       <Button>Continue</Button>
     </div>

@@ -16,7 +16,7 @@
     align-items: center;
   }
 
-  .title {
+  .main-title {
     @include text-preset-5-bold;
   }
 
@@ -60,6 +60,10 @@
 @media (min-width: 768px) {
   .final-score-card {
     width: 338px;
+
+    .main-title {
+      @include text-preset-4;
+    }
   }
 }
 

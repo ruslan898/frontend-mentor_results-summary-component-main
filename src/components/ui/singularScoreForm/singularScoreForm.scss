@@ -24,13 +24,14 @@
 
     &-num {
       color: $navy-950;
+      font-weight: bold;
     }
   }
 
   &.reaction {
     background-color: $red-50;
 
-    .title, .score-num {
+    .title {
       color: $red-400;
     }
   }
@@ -38,7 +39,7 @@
   &.memory {
     background-color: $yellow-50;
 
-    .title, .score-num {
+    .title {
       color: $yellow-400;
     }
   }
@@ -46,7 +47,7 @@
   &.verbal {
     background-color: $green-50;
 
-    .title, .score-num {
+    .title {
       color: $green-500;
     }
   }
@@ -54,7 +55,7 @@
   &.visual {
     background-color: $blue-50;
 
-    .title, .score-num {
+    .title {
       color: $blue-800;
     }
   }
