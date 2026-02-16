@@ -9,7 +9,7 @@ export default function SingularScoreForm({
   variant = 'reaction',
 }) {
   return (
-    <div className={clsx('singular-score-form', variant.toLowerCase())}>
+    <li className={clsx('singular-score-form', variant.toLowerCase())}>
       <div className="category">
         <img src={iconUrl} alt={`An icon representing ${variant}`} />
         <h3 className="title">{text}</h3>
@@ -17,6 +17,6 @@ export default function SingularScoreForm({
       <div className="score">
         <span className="score-num">{score}</span>/ 100
       </div>
-    </div>
+    </li>
   );
 }
