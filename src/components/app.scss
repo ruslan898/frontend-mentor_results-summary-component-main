@@ -2,7 +2,7 @@
 @use '/src/sass/mixins.scss' as *;
 
 .results-summary-component {
-  margin: 50px auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

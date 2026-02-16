@@ -28,22 +28,34 @@
   }
 
   &.reaction {
-    color: $red-400;
     background-color: $red-50;
+
+    .title, .score-num {
+      color: $red-400;
+    }
   }
 
   &.memory {
-    color: $yellow-400;
     background-color: $yellow-50;
+
+    .title, .score-num {
+      color: $yellow-400;
+    }
   }
 
   &.verbal {
-    color: $green-500;
     background-color: $green-50;
+
+    .title, .score-num {
+      color: $green-500;
+    }
   }
 
   &.visual {
-    color: $blue-800;
     background-color: $blue-50;
+
+    .title, .score-num {
+      color: $blue-800;
+    }
   }
 }
